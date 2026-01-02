@@ -25,7 +25,8 @@ We handle drywall, painting, fixture replacements, irrigation maintenance, and p
 
 ## 📍 Service Area
 Tallahassee, FL and nearby communities:  
-Midtown • Killearn Estates • Southwood • Betton Hills • Havana • Crawfordville • Woodville  
+Midtown • Killearn Estates • Southwood • Betton Hills • Havana • Crawfordville • Woodville
+Leon County • Gadsden County • Jefferson County
 
 ---
 
