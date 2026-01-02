@@ -1,17 +1,55 @@
+<!--
+  -----------------------------------------------------------------------------
+  File: index.html
+  Project: Wallace Home & Property Services (wallacehps-site)
+  -----------------------------------------------------------------------------
+  Description:
+    Main landing page for Wallace Home & Property Services, a locally operated
+    handyman and property maintenance business serving the Tallahassee, FL area.
+
+    This site provides general home maintenance information, trusted service
+    details, and links to our AI-based Homeowner Help & Maintenance Guide GPT
+    (Public) and our Lead GPT (Link-only). Educational use only; not a
+    substitute for professional, on-site evaluation.
+
+  Deployment:
+    Live URL   : https://wallace-home-property-services.github.io/wallacehps-site
+    Repository : https://github.com/wallace-home-property-services/wallacehps-site
+    Public GPT : https://chat.openai.com/g/YOUR_PUBLIC_GPT_ID
+    Lead GPT   : https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman
+
+  Notes:
+    - Static HTML; no user data collection.
+    - © 2026 Wallace Home & Property Services. All rights reserved.
+  -----------------------------------------------------------------------------
+-->
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Wallace Home & Property Services | Handyman Tallahassee</title>
-  <meta name="description" content="Wallace Home & Property Services — dependable handyman and home maintenance in the Tallahassee area. Repairs, maintenance, painting, drywall, pressure washing, irrigation maintenance. Try our free Homeowner Help & Maintenance Guide GPT." />
 
-  <!-- Open Graph -->
+  <!-- Canonical / SEO -->
+  <link rel="canonical" href="https://wallace-home-property-services.github.io/wallacehps-site" />
+  <meta name="description" content="Wallace Home & Property Services provides dependable handyman and home maintenance services for homeowners in the Tallahassee area. Drywall, painting, fixture replacement, pressure washing, and irrigation maintenance. Try our free AI Homeowner Help & Maintenance Guide." />
+
+  <!-- Open Graph (Facebook, LinkedIn, etc.) -->
   <meta property="og:title" content="Wallace Home & Property Services — Tallahassee" />
-  <meta property="og:description" content="Trusted local handyman services. Tallahassee-area repairs & maintenance. Try our free AI Homeowner Help Guide." />
+  <meta property="og:description" content="Trusted local handyman services in the Tallahassee area. Repairs, maintenance, painting, drywall, pressure washing, irrigation upkeep. Try our free AI Homeowner Help Guide." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://wallace-home-property-services.github.io/wallacehps-site" />
-  <meta property="og:image" content="https://wallace-home-property-services.github.io/wallacehps-site/cover.jpg" />
+  <meta property="og:image" content="https://wallace-home-property-services.github.io/wallacehps-site/images/cover.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Wallace Home & Property Services — Tallahassee" />
+  <meta name="twitter:description" content="Reliable handyman & home maintenance for Tallahassee homeowners. Explore our free AI Homeowner Help Guide." />
+  <meta name="twitter:image" content="https://wallace-home-property-services.github.io/wallacehps-site/images/cover.png" />
+
+  <!-- Favicon / App Icon -->
+  <link rel="icon" href="images/logo.png" type="image/png" />
 
   <!-- Minimal styles -->
   <style>
@@ -24,7 +62,7 @@
     .wrap{max-width:1100px;margin:0 auto;padding:20px}
     nav{display:flex;align-items:center;gap:24px;justify-content:space-between}
     nav .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text);font-weight:700}
-    nav .brand .logo{width:28px;height:28px;border-radius:6px;background:linear-gradient(135deg,var(--brand),var(--accent))}
+    nav .brand img{width:28px;height:28px;border-radius:6px;display:block}
     nav a{color:var(--muted);text-decoration:none}
     nav a:hover{color:var(--text)}
     .btn{display:inline-block;padding:12px 16px;border-radius:10px;background:var(--brand);color:#081219;font-weight:700;text-decoration:none}
@@ -46,17 +84,16 @@
     @media (max-width:900px){.hero{grid-template-columns:1fr}}
   </style>
 
-  <!-- Local Business Schema (SAB style: omit street) -->
+  <!-- Local Business Schema -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"HomeAndConstructionBusiness",
     "name":"Wallace Home & Property Services",
-    "image":"https://wallace-home-property-services.github.io/wallacehome-site/cover.jpg",
-    "url":"https://wallace-home-property-services.github.io/wallacehome-site",
-    "telephone":"+1-XXX-XXX-XXXX",
+    "image":"https://wallace-home-property-services.github.io/wallacehps-site/images/cover.png",
+    "url":"https://wallace-home-property-services.github.io/wallacehps-site",
+    "telephone":"+1-850-296-8566",
     "areaServed":[{"@type":"City","name":"Tallahassee"},{"@type":"Place","name":"Leon County"}],
-    "servesCuisine": null,
     "address":{
       "@type":"PostalAddress",
       "addressLocality":"Tallahassee",
@@ -65,8 +102,7 @@
     },
     "description":"Dependable handyman and home maintenance for Tallahassee-area homeowners. Repairs, maintenance, painting, drywall, pressure washing, irrigation maintenance. Includes a free AI Homeowner Help & Maintenance Guide.",
     "sameAs":[
-      "https://www.facebook.com/YOUR-PAGE",
-      "https://www.angi.com/your-angi-url",
+      "https://www.angi.com/companylist/us/fl/tallahassee/wallace-home-property-services-llc-reviews-1.htm",
       "https://g.page/r/YOUR-GOOGLE-SHORT-NAME"
     ]
   }
@@ -76,7 +112,10 @@
   <header>
     <div class="wrap">
       <nav>
-        <a class="brand" href="#"><span class="logo"></span> Wallace Home & Property Services</a>
+        <a class="brand" href="#">
+          <img src="images/logo.png" alt="Wallace Home & Property Services logo" />
+          Wallace Home & Property Services
+        </a>
         <div class="links">
           <a href="#services">Services</a>
           <a href="#areas">Service Areas</a>
@@ -98,8 +137,7 @@
           Try our free <strong>AI Homeowner Help & Maintenance Guide</strong> to understand issues before booking service.
         </p>
         <div class="cta">
-          <!-- Replace with your GPT URLs -->
-          <a class="btn" href="https://chatgpt.com/g/g-6957fba00a808191ac37c11993e2aa1e-homeowner-help-maintenance-guide" id="guide">Open Public AI Guide</a>
+          <a class="btn" href="https://chat.openai.com/g/YOUR_PUBLIC_GPT_ID" id="guide">Open Public AI Guide</a>
           <a class="btn outline" href="https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman">Request Help / Get Matched</a>
         </div>
         <p class="lead" style="margin-top:10px;color:#9fb0c7">
@@ -111,7 +149,7 @@
         <div class="card">
           <h2>Call or Text</h2>
           <ul class="clean">
-            <li><a href="tel:+18502968566">+1 (850) 296-8566</a></li>
+            <li><a href="tel:+18502968566">(850) 296-8566</a></li>
             <li><a href="mailto:mrwallace990@gmail.com">mrwallace990@gmail.com</a></li>
           </ul>
         </div>
@@ -119,7 +157,7 @@
           <h2>Verified Profiles</h2>
           <ul class="clean">
             <li><a href="https://g.page/r/YOUR-GOOGLE-SHORT-NAME" rel="noopener">Google Business Profile</a></li>
-            <li><a href="https://www.angi.com/companylist/us/fl/tallahassee/wallace-home-property-services-llc-reviews-1.htm" rel="noopener">Home Advisor (Angie’s List)</a></li>
+            <li><a href="https://www.angi.com/companylist/us/fl/tallahassee/wallace-home-property-services-llc-reviews-1.htm" rel="noopener">Angi (Angie’s List)</a></li>
           </ul>
         </div>
       </div>
@@ -161,8 +199,8 @@
         <p class="lead">Tallahassee and nearby communities, including:</p>
         <ul class="clean">
           <li>Midtown • Killearn Estates • Southwood • Betton Hills</li>
-          <li>Havana • Crawfordville • Woodville</li>
-          <li>Leon • Jefferson • Gadsden</li>
+          <li>Havana • Crawfordville • Woodville • Quincy</li>
+          <li>Leon • Gadsden • Jefferson</li>
         </ul>
         <p class="lead" style="color:#9fb0c7">We’re a service-area business (no public storefront).</p>
       </div>
@@ -180,7 +218,7 @@
       <h2>Get Help</h2>
       <p class="lead">Tell us what’s going on, or use the AI guide to prep before a visit.</p>
       <div class="cta">
-        <a class="btn" href="https://LEAD_GPT_URL">Start Intake (AI-assisted)</a>
+        <a class="btn" href="https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman">Start Intake (AI-assisted)</a>
         <a class="btn outline" href="mailto:mrwallace990@gmail.com">Email Us</a>
         <a class="btn outline" href="tel:+18502968566">Call / Text</a>
       </div>
