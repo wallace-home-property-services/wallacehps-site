@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# Site Configuration for Wallace Home & Property Services (wallacehps-site)
+# -----------------------------------------------------------------------------
+
+title: "Wallace Home & Property Services"
+description: >
+  Reliable handyman and home maintenance services in Tallahassee, FL.
+  Educational resources and AI-powered homeowner tools to help residents
+  understand common home issues and maintenance needs.
+
+url: "https://wallace-home-property-services.github.io/wallacehps-site"
+author: "Wallace Home & Property Services"
+email: "mrwallace990@gmail.com"
+
+# Build Settings
+theme: null   # We're not using a Jekyll theme, just plain HTML
+markdown: kramdown
+exclude:
+  - LICENSE
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+# Prevent Jekyll from processing raw HTML files
+keep_files:
+  - index.html
+  - images
+
+# Custom settings
+timezone: America/New_York
+encoding: UTF-8
