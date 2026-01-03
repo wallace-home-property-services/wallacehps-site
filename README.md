@@ -17,9 +17,11 @@ We handle drywall, painting, fixture replacements, irrigation maintenance, and p
 
 ---
 
-## 🌐 Helpful Tools
-- [Homeowner Help & Maintenance Guide (Public GPT)](https://chatgpt.com/g/g-6957fba00a808191ac37c11993e2aa1e-homeowner-help-maintenance-guide)  
-- [Request Help or Service (Lead GPT)](https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman)
+## Public AI Assistants
+
+We also maintain a small set of public AI assistants to help homeowners understand maintenance issues and next steps.
+
+👉 View them here: [Public GPT Assistants](./gpts/README.md)
 
 ---
 
