@@ -9,8 +9,8 @@ It focuses exclusively on **residential irrigation and yard water issues** in th
 ---
 ## Example Screenshots
 
-![Irrigation GPT – overview](/images/irrigation-1.png)
-![Irrigation GPT – example response](/images/irrigation-2.png)
+![Irrigation GPT – overview](../images/irrigation-1.png)
+![Irrigation GPT – example response](../images/irrigation-2.png)
 
 ---
 ## Who This Assistant Is For
