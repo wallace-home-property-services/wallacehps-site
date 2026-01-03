@@ -1,8 +1,16 @@
-# Wallace Home & Property Services — Public GPT Assistants
+# Public GPT Assistants — Wallace Home & Property Services
 
-This repository documents a small collection of **public AI assistants** operated by **Wallace Home & Property Services**, designed to help homeowners better understand common maintenance issues and next steps — without pressure, diagnosis, or unsafe advice.
+This folder documents a set of **public AI assistants** operated by **Wallace Home & Property Services**, owned by **Will Wallace**, a trusted local handyman serving the Tallahassee area.
 
-These assistants are educational first, local when appropriate, and built to feel like talking with a knowledgeable neighbor who knows Tallahassee homes.
+Will handles **most residential home repairs, maintenance, and improvement projects**, and also has **deep expertise in irrigation and yard water systems**, which is reflected in one of the specialist assistants below.
+
+These GPTs are designed to be:
+- Educational first
+- Safety-focused
+- Honest about limits
+- Helpful whether or not someone ever calls
+
+They exist to help homeowners understand issues, options, and next steps — without pressure.
 
 ---
 
@@ -16,6 +24,26 @@ These assistants are educational first, local when appropriate, and built to fee
 ---
 
 ## The Assistants
+
+### 🔧 Will the Tallahassee Handyman
+**Purpose:**  
+General home repairs, remodeling questions, maintenance, or “can this be fixed?”
+
+**Typical topics:**  
+- Doors, trim, drywall patches  
+- Minor rot repair  
+- Decks, steps, and railings  
+- Light electrical (fixtures, outlets — no panels)  
+- Exterior repairs  
+- Property manager and landlord maintenance needs  
+
+If a topic involves irrigation or sprinklers, this assistant redirects to the Irrigation Specialist.
+
+👉 Open the GPT: [Will the Tallahassee Handyman](https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman)
+
+📄 Documentation: [tallahassee-handyman.md](./tallahassee-handyman.md)
+
+---
 
 ### 🏠 Homeowner Help & Maintenance Guide
 **Purpose:**  
@@ -59,38 +87,6 @@ General guidance only outside the Tallahassee area.
 👉 Open the GPT: [Will the Tallahassee Irrigation Specialist](https://chatgpt.com/g/g-695772c790bc81918b59876997c060ad-tallahassee-irrigation-specialist)
 
 📄 Documentation: [irrigation-specialist.md](./irrigation-specialist.md)
-
----
-
-### 🔧 Will the Tallahassee Handyman
-**Purpose:**  
-General local handyman guidance for common home repairs and maintenance.
-
-**Typical topics:**  
-- Doors, trim, drywall patches  
-- Minor rot repair  
-- Decks, steps, and railings  
-- Light electrical (fixtures, outlets — no panels)  
-- Exterior repairs  
-- Property manager and landlord maintenance needs  
-
-If a topic involves irrigation or sprinklers, this assistant redirects to the Irrigation Specialist.
-
-👉 Open the GPT: [Will the Tallahassee Handyman](https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman)
-
-📄 Documentation: [tallahassee-handyman.md](./tallahassee-handyman.md)
-
----
-
-## About These Assistants
-
-These GPTs are:
-- Educational, not diagnostic  
-- Safety-first  
-- Clear about scope and limits  
-- Optional pathways to local help — never required  
-
-They are operated by a real local business and designed to reduce confusion for homeowners.
 
 ---
 
