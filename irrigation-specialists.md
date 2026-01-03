@@ -7,7 +7,12 @@ It focuses exclusively on **residential irrigation and yard water issues** in th
 👉 **Open the public GPT:** https://chatgpt.com/g/g-695772c790bc81918b59876997c060ad-tallahassee-irrigation-specialist
 
 ---
+## Example Screenshots
 
+![Irrigation GPT – overview](./images/irrigation-1.png)
+![Irrigation GPT – example response](./images/irrigation-2.png)
+
+---
 ## Who This Assistant Is For
 
 - Homeowners with sprinkler or yard water issues  
