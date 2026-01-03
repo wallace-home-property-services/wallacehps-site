@@ -90,16 +90,6 @@ General guidance only outside the Tallahassee area.
 
 ---
 
-## About Wallace Home & Property Services
-Wallace Home & Property Services is a locally owned business serving the Tallahassee area, focused on honest work, repeat customers, and clear communication.
-
-These GPTs exist to:
-- Reduce homeowner confusion
-- Help people ask better questions
-- Make maintenance decisions less stressful
-
----
-
 ## Which Assistant Should I Use?
 
 | If your question is about… | Start here |
@@ -107,6 +97,16 @@ These GPTs exist to:
 | General home repairs, remodeling questions, maintenance, or “can this be fixed?” | **Will the Tallahassee Handyman** |
 | Not sure what’s going on, general homeowner concerns, preventative maintenance | **Homeowner Help & Maintenance Guide** |
 | Sprinklers, irrigation zones, valves, rain sensors, wet or soggy yards (Tallahassee area) | **Will the Tallahassee Irrigation Specialist** |
+
+---
+
+## About Wallace Home & Property Services
+Wallace Home & Property Services is a locally owned business serving the Tallahassee area, focused on honest work, repeat customers, and clear communication.
+
+These GPTs exist to:
+- Reduce homeowner confusion
+- Help people ask better questions
+- Make maintenance decisions less stressful
 
 ---
 
