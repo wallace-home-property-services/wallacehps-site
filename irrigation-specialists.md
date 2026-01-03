@@ -4,6 +4,8 @@
 
 It focuses exclusively on **residential irrigation and yard water issues** in the Tallahassee area.
 
+👉 **Open the public GPT:** https://chatgpt.com/g/g-695772c790bc81918b59876997c060ad-tallahassee-irrigation-specialist
+
 ---
 
 ## Who This Assistant Is For
