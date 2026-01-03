@@ -4,6 +4,8 @@
 
 The assistant is designed to feel like talking with a knowledgeable neighbor who knows local homes and wants to help homeowners understand their options.
 
+👉 **Open the public GPT:** https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman
+
 ---
 
 ## Who This Assistant Is For
