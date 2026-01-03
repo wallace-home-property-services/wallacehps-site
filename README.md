@@ -29,6 +29,8 @@ General homeowner education across many topics — moisture, maintenance, exteri
 
 This is the **starting point** if you’re not sure where to begin.
 
+👉 Open the GPT: [Homeowner Help & Maintenance Guide](https://chatgpt.com/g/g-6957fba00a808191ac37c11993e2aa1e-homeowner-help-maintenance-guide)
+
 ---
 
 ### 💧 Will the Tallahassee Irrigation Specialist
@@ -52,6 +54,8 @@ Florida-specific guidance on residential irrigation and yard water issues.
 Serves **Leon, Jefferson, and Gadsden Counties**.  
 General guidance only outside the Tallahassee area.
 
+👉 Open the GPT: [Will the Tallahassee Irrigation Specialist](https://chatgpt.com/g/g-695772c790bc81918b59876997c060ad-tallahassee-irrigation-specialist)
+
 ---
 
 ### 🔧 Will the Tallahassee Handyman
@@ -67,6 +71,8 @@ General local handyman guidance for common home repairs and maintenance.
 - Property manager and landlord maintenance needs  
 
 If a topic involves irrigation or sprinklers, this assistant redirects to the Irrigation Specialist.
+
+👉 Open the GPT: [Will the Tallahassee Handyman](https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman)
 
 ---
 
