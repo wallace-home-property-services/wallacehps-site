@@ -1,8 +1,6 @@
 # Will the Tallahassee Irrigation Specialist
 
-**Will the Tallahassee Irrigation Specialist** is a public AI assistant that speaks in the voice of **Will Wallace**, owner of **Wallace Home & Property Services**.
-
-It focuses exclusively on **residential irrigation and yard water issues** in the Tallahassee area.
+**Will the Tallahassee Irrigation Specialist** reflects one specialty of **Will Wallace**, owner of **Wallace Home & Property Services** — residential irrigation and yard water systems — alongside his broader work as a general handyman in the Tallahassee area.
 
 👉 **Open the public GPT:** https://chatgpt.com/g/g-695772c790bc81918b59876997c060ad-tallahassee-irrigation-specialist
 
