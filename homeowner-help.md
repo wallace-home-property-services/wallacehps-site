@@ -8,6 +8,13 @@ Its purpose is to help homeowners better understand common maintenance concerns,
 
 ---
 
+## Example Screenshots
+
+![Homeowner Help GPT – overview](../images/homeowner-help-1.png)
+![Homeowner Help GPT – example response](../images/homeowner-help-2.png)
+
+---
+
 ## What This Assistant Is For
 
 This GPT is designed to answer questions like:
