@@ -17,14 +17,6 @@ We handle drywall, painting, fixture replacements, irrigation maintenance, and p
 
 ---
 
-## Public AI Assistants
-
-We also maintain a small set of public AI assistants to help homeowners understand maintenance issues and next steps.
-
-👉 View them here: [Public GPT Assistants](./gpts/README.md)
-
----
-
 ## 📍 Service Area
 Tallahassee, FL and nearby communities:  
 Midtown • Killearn Estates • Southwood • Betton Hills • Havana • Crawfordville • Woodville
