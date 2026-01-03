@@ -36,7 +36,7 @@ Leon County • Gadsden County • Jefferson County
 
 We also maintain a set of public, homeowner-focused AI assistants that provide general maintenance education and local guidance for the Tallahassee area.
 
-👉 Learn more here: [Public GPT Assistants](https://wallace-home-property-services.github.io/REPO/main/gpts/README.md)
+👉 Learn more here: [Public GPT Assistants](https://wallace-home-property-services.github.io/wallacehps-site/main/gpts/README.md)
 
 > This site and AI tools are provided by Wallace Home & Property Services for educational purposes only.  
 > Always seek licensed professional evaluation for safety-critical or structural concerns.
