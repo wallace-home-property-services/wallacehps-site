@@ -8,6 +8,13 @@ The assistant is designed to feel like talking with a knowledgeable neighbor who
 
 ---
 
+## Example Screenshots
+
+![Handyman GPT – overview](../images/handyman-1.png)
+![Handyman GPT – example response](../images/handyman-2.png)
+
+---
+
 ## Who This Assistant Is For
 
 - Homeowners
