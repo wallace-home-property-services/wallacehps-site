@@ -100,6 +100,16 @@ These GPTs exist to:
 
 ---
 
+## Which Assistant Should I Use?
+
+| If your question is about… | Start here |
+|----------------------------|-----------|
+| General home repairs, remodeling questions, maintenance, or “can this be fixed?” | **Will the Tallahassee Handyman** |
+| Not sure what’s going on, general homeowner concerns, preventative maintenance | **Homeowner Help & Maintenance Guide** |
+| Sprinklers, irrigation zones, valves, rain sensors, wet or soggy yards (Tallahassee area) | **Will the Tallahassee Irrigation Specialist** |
+
+---
+
 ## Contact (Optional)
 If you’re in the Tallahassee area and want local help, you can call or text:
 
