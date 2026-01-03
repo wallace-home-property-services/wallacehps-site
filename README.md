@@ -31,6 +31,8 @@ This is the **starting point** if you’re not sure where to begin.
 
 👉 Open the GPT: [Homeowner Help & Maintenance Guide](https://chatgpt.com/g/g-6957fba00a808191ac37c11993e2aa1e-homeowner-help-maintenance-guide)
 
+📄 Documentation: [homeowner-help.md](./homeowner-help.md)
+
 ---
 
 ### 💧 Will the Tallahassee Irrigation Specialist
@@ -56,6 +58,8 @@ General guidance only outside the Tallahassee area.
 
 👉 Open the GPT: [Will the Tallahassee Irrigation Specialist](https://chatgpt.com/g/g-695772c790bc81918b59876997c060ad-tallahassee-irrigation-specialist)
 
+📄 Documentation: [irrigation-specialist.md](./irrigation-specialist.md)
+
 ---
 
 ### 🔧 Will the Tallahassee Handyman
@@ -74,16 +78,19 @@ If a topic involves irrigation or sprinklers, this assistant redirects to the Ir
 
 👉 Open the GPT: [Will the Tallahassee Handyman](https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman)
 
+📄 Documentation: [tallahassee-handyman.md](./tallahassee-handyman.md)
+
 ---
 
-## How These GPTs Are Designed
+## About These Assistants
+
+These GPTs are:
 - Educational, not diagnostic  
 - Safety-first  
-- No step-by-step risky instructions  
-- Honest about limits and when on-site evaluation is needed  
-- Friendly, calm, and non-salesy  
+- Clear about scope and limits  
+- Optional pathways to local help — never required  
 
-If someone wants local help, the assistants may share contact information — but users are never required to call or book anything.
+They are operated by a real local business and designed to reduce confusion for homeowners.
 
 ---
 
