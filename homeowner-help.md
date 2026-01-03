@@ -4,6 +4,8 @@
 
 Its purpose is to help homeowners better understand common maintenance concerns, possible causes, and next steps — without diagnosing problems or giving unsafe advice.
 
+👉 **Open the public GPT:** (https://chatgpt.com/g/g-6957fba00a808191ac37c11993e2aa1e-homeowner-help-maintenance-guide)
+
 ---
 
 ## What This Assistant Is For
