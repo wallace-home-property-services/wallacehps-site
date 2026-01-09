@@ -237,15 +237,17 @@
       </div>
     </section>
 
-    <footer>
-      <div class="wrap" style="padding:0">
-        © <span id="y"></span> Wallace Home & Property Services • Tallahassee, FL • Education-first AI guidance — not a substitute for professional diagnostics.
-      </div>
-    </footer>
+<footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #ddd; font-size: 0.9rem; color: #555;">
+  <p>&copy; <span id="year"></span> Wallace Home &amp; Property Services. All rights reserved.</p>
+  <p>
+    <a href="/privacy-policy.html">Privacy Policy</a>
+    &nbsp;|&nbsp;
+    <a href="/terms-of-service.html">Terms of Service</a>
+  </p>
+</footer>
   </main>
-
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+    <script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
