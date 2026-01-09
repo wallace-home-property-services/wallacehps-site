@@ -83,6 +83,73 @@
     footer{margin-top:40px;padding:30px 0;border-top:1px solid rgba(255,255,255,.06);color:var(--muted)}
     .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
     @media (max-width:900px){.hero{grid-template-columns:1fr}}
+    /* Header styling */
+.site-header {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Container */
+.header-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo + Brand Text */
+.header-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 12px;
+}
+
+.header-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.header-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #004d80;
+  letter-spacing: 0.5px;
+}
+
+/* Navigation */
+.header-nav a {
+  margin-left: 22px;
+  text-decoration: none;
+  color: #004d80;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+  color: #0077c5;
+}
+
+/* Mobile adjustments */
+@media (max-width: 780px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .header-nav a {
+    margin: 0 10px;
+  }
+}
+
   </style>
 
   <!-- Local Business Schema -->
