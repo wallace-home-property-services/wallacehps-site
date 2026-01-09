@@ -77,7 +77,12 @@
     .btn{display:inline-block;padding:12px 16px;border-radius:10px;background:var(--brand);color:#081219;font-weight:700;text-decoration:none}
     .btn.outline{background:transparent;border:1px solid var(--brand);color:var(--text)}
     main{padding:24px}
-    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+.hero{
+  display:grid;
+  grid-template-columns:minmax(0, 1.3fr) minmax(0, 0.9fr);
+  gap:28px;
+  align-items:start;
+}
     .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:20px}
     h1{font-size:clamp(28px,5vw,42px);line-height:1.1;margin:0 0 12px}
     h2{font-size:22px;margin:0 0 12px}
@@ -192,7 +197,7 @@
 <header class="site-header">
   <div class="header-container">
     <a href="#" class="header-brand">
-      <img src="images/logo.png" alt="Wallace Home & Property Services" class="header-logo">
+      <img src="images/logo.png" alt="Handyman in Tallahassee doing repair work" class="header-logo">
       <span class="header-title">Wallace Home & Property Services</span>
     </a>
 
@@ -213,10 +218,10 @@
         <p class="lead">
           Wallace Home & Property Services handles small repairs, maintenance, and improvement projects —
           from drywall and painting to pressure washing and irrigation maintenance.
-          Try our free <strong>AI Handyman Assistant</strong> to understand issues before booking service.
+          Try our free AI Handyman Assistant to better understand what might be going on before you schedule a visit.
         </p>
         <div class="cta">
-          <a class="btn" href="https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman" id="guide">Request Help / Ask Questions</a>
+          <a class="btn" href="https://chatgpt.com/g/g-6957629272888191a3678045456c045f-will-the-tallahassee-handyman" id="guide">Ask a Handyman a Question</a>
         </div>
         <p class="lead" style="margin-top:10px;color:#9fb0c7">
           <i>Education-first. Not a substitute for professional diagnosis.<br />Some issues require on-site evaluation.</i>
@@ -224,7 +229,7 @@
       </div>
 
       <div class="grid">
-        <div class="card">
+        <div class="card" id="contact">
           <h2>Call or Text</h2>
           <ul class="clean">
             <li><a href="tel:+18502968566">(850) 296-8566</a></li>
@@ -232,7 +237,7 @@
           </ul>
         </div>
         <div class="card">
-          <h2>Verified Profiles</h2>
+          <h2>Verified Listings</h2>
           <ul class="clean">
             <li><a href="https://g.page/r/YOUR-GOOGLE-SHORT-NAME" rel="noopener">Google Business Profile</a></li>
             <li><a href="https://www.angi.com/companylist/us/fl/tallahassee/wallace-home-property-services-llc-reviews-1.htm" rel="noopener">Angi (Angie’s List)</a></li>
@@ -240,10 +245,18 @@
         </div>
       </div>
     </section>
+<section class="seo-intro card" style="margin-top:20px">
+  <p class="lead">
+    Wallace Home & Property Services provides dependable handyman, home repair, and 
+    property maintenance services for homeowners in the Tallahassee, FL area. 
+    We handle drywall repair, painting, fixture replacement, carpentry, 
+    pressure washing, irrigation maintenance, and general home improvements.
+  </p>
+</section>
 
     <section id="services" class="grid cols-3" style="margin-top:20px">
       <div class="card">
-        <h2>Repairs</h2>
+        <h2>Handyman Repairs in Tallahassee</h2>
         <ul class="clean">
           <li>Drywall patch & paint</li>
           <li>Door & trim repair</li>
@@ -310,12 +323,15 @@
             Just copy and paste that in a text to 850-296-8566, and I’ll get back to you quickly.</li>
          <li><strong>Are you licensed and insured?</strong> Yes — Wallace Home & Property Services is fully insured, and I handle everything I’m licensed for safely and professionally. I don’t do roofing or whole-house electrical work, but I have trusted local referrals if you need those services.</li>
          <li><strong>How soon can you start?</strong> Scheduling is flexible — small jobs can often be handled within a few days, and larger ones may require a quick walkthrough or estimate first. I’ll always do my best to fit you in quickly.</li>
-         <li><strong>What is the best way to reach you?</strong> Call or text me directly at 850-296-8566. Text is usually the fastest way to get a quick reply.</li>
+         <li><strong>What is the best way to reach you?</strong> Call or text me directly at <a href="tel:+18502968566" style="color:#3fd0a7;">(850) 296-8566</a>. Text is usually the fastest way to get a quick reply.</li>
         </ul>
       </div>
     </section>
+<p style="color:#9fb0c7; font-size:0.9rem; margin-top:30px;">
+  Wallace Home & Property Services · Tallahassee, FL · (850) 296-8566
+</p>
 
-<footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #ddd; font-size: 0.9rem; color: #555;">
+<footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06); font-size: 0.9rem; color: #a8b3c7;">
   <p>&copy; <span id="year"></span> Wallace Home &amp; Property Services. All rights reserved.</p>
   <p>
     <a href="/privacy-policy.html">Privacy Policy</a>
