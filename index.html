@@ -174,7 +174,23 @@
   fill: var(--text);
   opacity: 0.9;
 }
-v
+/* Make links inside cards visibly clickable */
+.card a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Prevent visited links from turning purple/muted */
+.card a:visited {
+  color: var(--accent);
+}
+
   </style>
 
   <!-- Local Business + Reviews Schema -->
