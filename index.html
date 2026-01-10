@@ -131,9 +131,10 @@
   height: 55px;
   object-fit: contain;
   border-radius: 8px;
-  border: 1px solid rgba(255,255,255,0.28);   /* subtle frame */
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);        /* lifts it off the header */
-  background-color: transparent;               /* no milky overlay */
+  background: rgba(255,255,255,0.18);          /* light plate so text stays readable */
+  backdrop-filter: blur(4px);                  /* smooths the transparency nicely */
+  padding: 4px;                                /* keeps it clean */
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);         /* lifts it off the dark header */
 }
 
 .header-title {
