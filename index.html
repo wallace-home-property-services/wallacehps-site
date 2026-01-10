@@ -74,7 +74,8 @@
       nav a:hover{color:var(--text)}
     */
     
-    .btn{display:inline-block;padding:12px 16px;border-radius:10px;background:var(--brand);color:#081219;font-weight:700;text-decoration:none}
+    .btn{
+      display:inline-block;padding:12px 16px;border-radius:10px;background:var(--brand);color:#ffffff;font-weight:700;text-decoration:none;text-shadow: 0 0 4px rgba(0,0,0,0.4);}
     .btn.outline{background:transparent;border:1px solid var(--brand);color:var(--text)}
     main{padding:24px}
 .hero{
@@ -130,6 +131,9 @@
   height: 55px;
   object-fit: contain;
   border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.28);   /* subtle frame */
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);        /* lifts it off the header */
+  background-color: transparent;               /* no milky overlay */
 }
 
 .header-title {
@@ -342,9 +346,10 @@
 <header class="site-header">
   <div class="header-container">
     <a href="#" class="header-brand">
-      <img src="images/logo.png" alt="Handyman in Tallahassee doing repair work" class="header-logo" style="background: rgba(255,255,255,0.10); padding: 6px; border-radius: 10px;">
+      <img src="images/logo.png" alt="Handyman in Tallahassee doing repair work" class="header-logo">
       <span class="header-title">Wallace Home & Property Services</span>
     </a>
+  
 <nav class="header-nav">
   <a href="#services">Services</a>
   <a href="#areas">Service Areas</a>
