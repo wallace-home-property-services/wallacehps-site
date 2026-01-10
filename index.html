@@ -166,7 +166,15 @@
     margin: 0 10px;
   }
 }
+.fb-icon {
+  transition: fill 0.2s ease, opacity 0.2s ease;
+}
 
+.header-nav a:hover .fb-icon {
+  fill: var(--text);
+  opacity: 0.9;
+}
+v
   </style>
 
   <!-- Local Business + Reviews Schema -->
@@ -318,16 +326,29 @@
 <header class="site-header">
   <div class="header-container">
     <a href="#" class="header-brand">
-      <img src="images/logo.png" alt="Handyman in Tallahassee doing repair work" class="header-logo">
+      <img src="images/logo.png" alt="Handyman in Tallahassee doing repair work" class="header-logo" style="background: rgba(255,255,255,0.10); padding: 6px; border-radius: 10px;">
       <span class="header-title">Wallace Home & Property Services</span>
     </a>
+<img src="images/logo.png" 
+     >
 
-    <nav class="header-nav">
-      <a href="#services">Services</a>
-      <a href="#areas">Service Areas</a>
-      <a href="#guide">AI Homeowner Guide</a>
-      <a href="#contact">Contact</a>
-    </nav>
+<nav class="header-nav">
+  <a href="#services">Services</a>
+  <a href="#areas">Service Areas</a>
+  <a href="#guide">AI Homeowner Guide</a>
+  <a href="#contact">Contact</a>
+
+  <!-- Facebook Icon -->
+  <a href="https://www.facebook.com/share/16u46PSCnG" target="_blank" aria-label="Facebook">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="#a8b3c7" xmlns="http://www.w3.org/2000/svg" class="fb-icon">
+      <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 
+      24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 
+      4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 
+      0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.403 
+      24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z"/>
+    </svg>
+  </a>
+</nav>
   </div>
 </header>
 
@@ -362,7 +383,8 @@
           <ul class="clean">
             <li><a href="https://g.page/r/YOUR-GOOGLE-SHORT-NAME" rel="noopener">Google Business Profile</a></li>
             <li><a href="https://www.angi.com/companylist/us/fl/tallahassee/wallace-home-property-services-llc-reviews-1.htm" rel="noopener">Angi (Angie’s List)</a></li>
-          </ul>
+            <li><a href="https://www.facebook.com/share/16u46PSCnG" rel="noopener">Facebook Page</a></li>
+           </ul>
         </div>
       </div>
     </section>
@@ -567,11 +589,13 @@
 
 <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06); font-size: 0.9rem; color: #a8b3c7;">
   <p>&copy; <span id="year"></span> Wallace Home &amp; Property Services. All rights reserved.</p>
-  <p>
-    <a href="/privacy-policy.html">Privacy Policy</a>
-    &nbsp;|&nbsp;
-    <a href="/terms-of-service.html">Terms of Service</a>
-  </p>
+<p>
+  <a href="/privacy-policy.html">Privacy Policy</a>
+  &nbsp;|&nbsp;
+  <a href="/terms-of-service.html">Terms of Service</a>
+  &nbsp;|&nbsp;
+  <a href="https://www.facebook.com/share/16u46PSCnG" target="_blank" rel="noopener">Facebook</a>
+</p>
 </footer>
   </main>
     <script>
