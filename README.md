@@ -28,7 +28,7 @@ Leon County • Gadsden County • Jefferson County
 **Phone:** +1 (850) 296-8566  
 **Email:** mrwallace990@gmail.com  
 **Website:** [https://wallace-home-property-services.github.io/wallacehps-site](https://wallace-home-property-services.github.io/wallacehps-site)  
-**Google Business Profile:** [View on Google Maps](https://g.page/r/YOUR-GOOGLE-SHORT-NAME)
+**Google Business Profile:** [View on Google Maps](https://share.google/VxqaTEsvr023B8J0T)
 
 ---
 
