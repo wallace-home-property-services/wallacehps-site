@@ -40,7 +40,7 @@
   <title>Handyman Tallahassee | Wallace Home & Property Services</title>
 
   <!-- Canonical / SEO -->
-  <link rel="canonical" href="https://wallace-home-property-services.github.io/wallacehps-site" />
+  <link rel="canonical" href="https://wallace-home-property-services.github.io/wallacehps-site/" />
   <meta name="description" content="Wallace Home & Property Services provides dependable handyman and home maintenance services for homeowners in the Tallahassee area. Drywall, painting, fixture replacement, pressure washing, and irrigation maintenance. Try our free AI Homeowner Help & Maintenance Guide." />
 
   <!-- Open Graph (Facebook, LinkedIn, etc.) -->
@@ -54,7 +54,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Wallace Home & Property Services — Tallahassee" />
   <meta name="twitter:description" content="Reliable handyman & home maintenance for Tallahassee homeowners. Explore our free AI Homeowner Help Guide." />
-  <meta name="twitter:image" content="images/cover.png" />
+  <meta name="twitter:image" content="https://wallace-home-property-services.github.io/wallacehps-site/images/cover.png" />
  
   <!-- Favicon / App Icon -->
   <link rel="icon" href="images/logo.png" width="100" height="100" type="image/png" />
@@ -234,208 +234,138 @@
 .btn:visited {
   color:#000000;
 }
+#reviews li {
+background: rgba(255,255,255,0.03);
+padding: 15px;
+border-radius: 12px;
+margin-bottom: 12px;
+border: 1px solid rgba(255,255,255,0.05);
+}
 
+.hero .card {
+border-left: 4px solid var(--brand);
+}
+
+#guide {
+box-shadow: 0 0 0 0 rgba(44, 185, 143, 0.4);
+animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+0% { box-shadow: 0 0 0 0 rgba(44, 185, 143, 0.4); }
+70% { box-shadow: 0 0 0 10px rgba(44, 185, 143, 0); }
+100% { box-shadow: 0 0 0 0 rgba(44, 185, 143, 0); }
+}
   </style>
 
-  <!-- Local Business + Reviews Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "@id": "https://wallace-home-property-services.github.io/wallacehps-site#business",
-    "name": "Wallace Home & Property Services",
-    "image": "https://wallace-home-property-services.github.io/wallacehps-site/images/cover.png",
-    "url": "https://wallace-home-property-services.github.io/wallacehps-site",
-    "telephone": "+1-850-296-8566",
-    "areaServed": [
-      { "@type": "City", "name": "Tallahassee" },
-      { "@type": "Place", "name": "Leon County" }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Tallahassee",
-      "postalCode": "32301",
-      "addressRegion": "FL",
-      "addressCountry": "US"
-    },
-    "description": "Dependable handyman and home maintenance for Tallahassee-area homeowners. Repairs, maintenance, painting, drywall, pressure washing, irrigation maintenance. Includes a free AI Homeowner Help & Maintenance Guide.",
-    "sameAs": [
-      "https://www.angi.com/companylist/us/fl/tallahassee/wallace-home-property-services-llc-reviews-1.htm",
-      "https://share.google/VxqaTEsvr023B8J0T"
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": 10
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Sharla P." },
-        "datePublished": "2025-12",
-        "reviewBody": "Outstanding laminate flooring and staircase install with precise, clean work and great communication.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Benjamin G." },
-        "datePublished": "2025-12",
-        "reviewBody": "Excellent shed build and exterior painting. Punctual, honest, and highly professional.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "James A." },
-        "datePublished": "2025-12",
-        "reviewBody": "Fast, knowledgeable laminate flooring installation that looks great.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Kimberly B." },
-        "datePublished": "2025-12",
-        "reviewBody": "Go-to contractor for rentals and vacation homes. Handles flooring, painting, drywall, appliances, smart devices, and more. Extremely reliable and trustworthy.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Chris H." },
-        "datePublished": "2025-12",
-        "reviewBody": "Great job replacing a backyard deck. Quick response, competitive quote, and quality work.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Barry K." },
-        "datePublished": "2025-12",
-        "reviewBody": "Multiple projects from roof leak repair to deck work, always high-quality and fairly priced.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Elizabeth S." },
-        "datePublished": "2025-12",
-        "reviewBody": "Expert work on everything from shelving to full interior finishing. Detail-oriented, trustworthy, and creative with solutions.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Don C." },
-        "datePublished": "2025-12",
-        "reviewBody": "Renovated two homes with painting, trim, fixtures, doors, tile, laminate, fence, pressure washing, and more. Always on time with great attention to detail.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Rick K." },
-        "datePublished": "2025-12",
-        "reviewBody": "Drywall installation completed on time with great results.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Monica C." },
-        "datePublished": "2025-12",
-        "reviewBody": "Stained wood columns and trim with fair pricing, clean workspace, and excellent results. Would rehire.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5,
-          "bestRating": 5
-        }
-      }
-    ]
-  }
-  </script>
+
+  
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
+  "@id": "https://wallace-home-property-services.github.io/wallacehps-site/#business",
   "name": "Wallace Home & Property Services",
-  "alternateName": "Wallace Handyman Services",
-  "description": "High-quality handyman services in Tallahassee specializing in LVP flooring installation, wood rot repair, and interior finishing.",
-  "url": "https://wallace-home-property-services.github.io/",
+  "legalName": "Wallace Home & Property Services LLC",
+  "url": "https://wallace-home-property-services.github.io/wallacehps-site/",
   "telephone": "+1-850-296-8566",
-  "priceRange": "$$",
+  "email": "mrwallace990@gmail.com",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "4112 Alpine Way",
     "addressLocality": "Tallahassee",
     "addressRegion": "FL",
-    "postalCode": "32301",
+    "postalCode": "32303",
     "addressCountry": "US"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 30.4383,
-    "longitude": -84.2807
-  },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "07:00",
-      "closes": "18:00"
-    }
+  "areaServed": [
+    { "@type": "City", "name": "Tallahassee" },
+    { "@type": "AdministrativeArea", "name": "Leon County" }
   ],
-  "areaServed": {
-    "@type": "City",
-    "name": "Tallahassee"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Handyman Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "LVP Flooring Installation"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Wood Rot Repair"
-        }
-      }
-    ]
-  }
+  "description": "Handyman and home repair services in Tallahassee, FL including flooring installation, drywall repair, carpentry, deck repair, and general property maintenance.",
+"openingHoursSpecification": [{
+  "@type": "OpeningHoursSpecification",
+  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+  "opens": "07:00",
+  "closes": "18:00"
+}],
+"aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "5.0",
+  "reviewCount": 10
+},
+"review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Sharla P." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Outstanding laminate flooring and staircase install with precise, clean work and great communication.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Benjamin G." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Excellent shed build and exterior painting. Punctual, honest, and highly professional.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "James A." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Fast, knowledgeable laminate flooring installation that looks great.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Kimberly B." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Go-to contractor for rentals and vacation homes. Handles flooring, painting, drywall, appliances, smart devices, and more. Extremely reliable and trustworthy.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Chris H." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Great job replacing a backyard deck. Quick response, competitive quote, and quality work.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Barry K." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Multiple projects from roof leak repair to deck work, always high-quality and fairly priced.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Elizabeth S." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Expert work on everything from shelving to full interior finishing. Detail-oriented, trustworthy, and creative with solutions.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Don C." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Renovated two homes with painting, trim, fixtures, doors, tile, laminate, fence, pressure washing, and more. Always on time with great attention to detail.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Rick K." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Drywall installation completed on time with great results.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Monica C." },
+      "datePublished": "2025-12-01",
+      "reviewBody": "Stained wood columns and trim with fair pricing, clean workspace, and excellent results. Would rehire.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    }
+  ]
 }
 </script>
  <meta name="google-site-verification" content="WisHGYq9skomd7c8Kyv6ZWoD_3hBLYlD0VA-_53rf3Y" />
@@ -490,7 +420,7 @@
         <div class="card" id="contact">
           <h2>Call, Text or Email</h2>
           <ul class="clean">
-            <li><a href="tel:+18502968566">(850) 296-8566</a></li>
+            <li><a href="tel:+18502968566">850-296-8566</a></li>
             <li><a href="sms:+18502968566?body=Hi Will! I saw your site and I'm interested in an estimate for...">Click here to text Will</a></li>
             <li><a href="mailto:mrwallace990@gmail.com">mrwallace990@gmail.com</a></li>
           </ul>
@@ -695,23 +625,24 @@
         <ul class="clean">
           <li><strong>Do you provide handyman services in Tallahassee?</strong> Yes. Wallace Home & Property Services provides handyman, repair, and property maintenance services for homeowners and property managers throughout Tallahassee and surrounding areas.</li>
           <li><strong>Do you charge for estimates?</strong> Nope — estimates are always free. I’m happy to come by, take a look, and give you a fair, straightforward quote.</li>
-          <li><strong>Do you work with landlords and property managers?</strong> Absolutely! I work with several local property managers and real estate professionals. If you manage multiple units, you can send me a quick text using this format to keep everything organized:
-            <ul>
-              <li>Name:</li>  
-              <li>Property Address:</li>  
-              <li>Unit Numbers:</li>
-              <li>Repair or Maintenance Details:</li>  
-              <li>Preferred Timing (if any):</li>
-            </ul>
-            Just copy and paste that in a text to <a href="sms:+18502968566?body=Hi Will! I'm a property manager interested in your handyman services.%0a%0aName: %0aProperty Address: %0aUnit Number: %0aRepair or Maintenance Details: %0aPreferred Timing:%0a">(850) 296-8566</a>, and I’ll get back to you quickly.</li>
-         <li><strong>Are you licensed and insured?</strong> Yes — Wallace Home & Property Services is fully insured, and I handle everything I’m licensed for safely and professionally. I don’t do roofing or whole-house electrical work, but I have trusted local referrals if you need those services.</li>
+          <li><strong>Do you work with landlords and property managers?</strong> Absolutely! Text the following to <a href="sms:+18502968566?body=Name:%0aAddress:%0aUnit:%0aIssue:">850-296-8566</a> for a fast response:
+<ul>
+<li>Your Name</li>
+<li>Property Address & Unit Number</li>
+<li>Repair Details</li>
+</ul>
+</li>
+          <li><strong>Are you licensed and insured?</strong> Yes — Wallace Home & Property Services is fully insured, and I handle everything I’m licensed for safely and professionally. I don’t do roofing or whole-house electrical work, but I have trusted local referrals if you need those services.</li>
          <li><strong>How soon can you start?</strong> Scheduling is flexible — small jobs can often be handled within a few days, and larger ones may require a quick walkthrough or estimate first. I’ll always do my best to fit you in quickly.</li>
-         <li><strong>What is the best way to reach you?</strong> Call or text me directly at <a href="sms:+18502968566?body=Hi Will! I saw your site and I'm interested in an estimate for...">(850) 296-8566</a>. Text is usually the fastest way to get a quick reply.</li>
+         <li><strong>What is the best way to reach you?</strong> Call or text me directly at <a href="sms:+18502968566?body=Hi Will! I saw your site and I'm interested in an estimate for...">850-296-8566</a>. Text is usually the fastest way to get a quick reply.</li>
         </ul>
       </div>
     </section>
 <p style="color:#9fb0c7; font-size:0.9rem; margin-top:30px;">
-  Wallace Home & Property Services · Tallahassee, FL · <a href="sms:+18502968566?body=Hi Will! I saw your site and I'm interested in an estimate for...">850-296-8566</a>
+  <strong style="color:#e8eef6;">Wallace Home &amp; Property Services</strong> ·
+  Tallahassee, FL (Serving Leon County) ·
+  By appointment only ·
+  <a href="tel:+18502968566">850-296-8566</a>
 </p>
 
 <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06); font-size: 0.9rem; color: #a8b3c7;">
